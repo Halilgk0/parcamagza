@@ -1,0 +1,23 @@
+Toplu Parça Yükleme - Talimatlar
+
+Sütun Açıklamaları:
+name: Parça adı (zorunlu)
+part_number: Parça numarası (zorunlu, benzersiz olmalı)
+price: Fiyat (zorunlu, sayı formatında)
+brand: Marka adı (zorunlu)
+description: Açıklama (zorunlu)
+stock_quantity: Stok miktarı (zorunlu, sayı formatında)
+condition: Durum (yeni=new, kullanılmış=used, yenilenmiş=refurbished)
+manufacturer: Üretici firma
+compatible_models: Uyumlu modeller (virgülle ayrılmış)
+image_url: Resim URL adresi
+specifications: Özellikler (JSON formatında)
+compatibility: Uyumluluk bilgileri (JSON formatında)
+
+Önemli Notlar:
+1. İlk satır başlık satırıdır, değiştirmeyin.
+2. name, part_number, price, brand, description ve stock_quantity sütunları zorunludur.
+3. Marka sistemde yoksa ve "Olmayan markaları otomatik oluştur" seçeneği işaretliyse otomatik oluşturulur.
+4. Parça numarası sistemde varsa ve "Mevcut parçaları güncelle" seçeneği işaretliyse parça güncellenir.
+5. Uyumlu modeller virgülle ayrılmış şekilde yazılmalıdır (örn: "Polo, Golf, Passat").
+6. specifications ve compatibility alanları JSON formatında olmalıdır (örn: {"anahtar":"değer"}).

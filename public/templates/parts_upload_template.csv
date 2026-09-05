@@ -1,0 +1,3 @@
+name,part_number,price,brand,description,stock_quantity,condition,manufacturer,compatible_models,image_url,specifications,compatibility
+"Fren Balata Seti",FB-12345,750.00,Bosch,"Yüksek kaliteli fren balata seti",15,new,Bosch,"Polo, Golf, Passat",https://example.com/image.jpg,"{""material"":""Seramik"",""width"":""150mm""}","{""model_years"":""2010-2022""}"
+"Yağ Filtresi",YF-67890,120.50,Mann,"Uzun ömürlü yağ filtresi",30,new,Mann-Filter,"Astra, Corsa, Insignia",,,
